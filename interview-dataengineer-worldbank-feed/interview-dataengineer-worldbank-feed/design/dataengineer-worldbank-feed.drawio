@@ -1,0 +1,68 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="l-9Dnl3hwub62sJdBBKQ">
+    <mxGraphModel dx="1482" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-2" value="WorldBank API" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="50" y="285" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;" parent="1" source="ckPhdWhgPNsuBy_kjUEG-13" target="ckPhdWhgPNsuBy_kjUEG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-11" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ckPhdWhgPNsuBy_kjUEG-9" vertex="1" connectable="0">
+          <mxGeometry x="0.0429" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-5" value="duckdb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="530" y="273" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="1" target="ckPhdWhgPNsuBy_kjUEG-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-13" value="World Facts Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="260" width="145" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-14" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="230" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-15" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;textShadow=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="327" width="50" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Data Analyst&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="530" y="450" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeWidth=3;" parent="1" source="ckPhdWhgPNsuBy_kjUEG-16" target="ckPhdWhgPNsuBy_kjUEG-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-22" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ckPhdWhgPNsuBy_kjUEG-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.186" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-18" value="Other Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="38" width="145" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;dashed=1;" parent="1" source="ckPhdWhgPNsuBy_kjUEG-19" target="ckPhdWhgPNsuBy_kjUEG-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-21" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ckPhdWhgPNsuBy_kjUEG-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.1714" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-19" value="Other Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="48" width="145" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ckPhdWhgPNsuBy_kjUEG-23" value="Scheduled Interval" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="265" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
