@@ -1,8 +1,8 @@
-##World Bank Data API and ETL Pipeline using Flask and DuckDB
-Overview
+## World Bank Data API and ETL Pipeline using Flask and DuckDB
+## Overview
 This project creates a simple Flask-based web application that fetches data from the World Bank API, processes it, and stores it in DuckDB. The application provides API endpoints for refreshing the data and retrieving key economic metrics such as GDP, population, and exports.
 
-Features
+## Features
 API Endpoints:
 
 /refresh: Refreshes the data from the World Bank API and loads it into DuckDB.
